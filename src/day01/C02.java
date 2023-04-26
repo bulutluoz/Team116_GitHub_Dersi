@@ -13,6 +13,22 @@ public class C02 {
     1- git add .  : son kaydedilen versiyondan sonra
                     projede yapilan degisiklikleri belirler
 
+    2- git commit -m "commit ismi" :
+                    projenin son durumunu bir versiyon olarak kaydeder
+                    burada "" icinde yazilan commit isminin
+                    anlamli olmasinda fayda vardir.
+                    ilerleyen asamalarda geri donus yapmak istersek
+                    hangi commit'e donmek isteyecegimizi
+                    aciklamalardan bulabiliriz
+
+      git ile ilisiklendirsdigimiz dosyadaki class isimleri
+      git durumuna gore renklenir
+
+      kirmizi   : bu class herhangi bir versiyona eklenmedi
+      mavi      : bu dosya bir versiyona eklendi
+                  ama sonradan degisiklik yapilmis
+      siyah     : bu class bir versiyonda son haliyle yedeklendi
+                  sonrasinda hic bir degisiklik yok
 
      */
 }
